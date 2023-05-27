@@ -11,17 +11,17 @@ function myFunction() {
 
 //header -
 
-const header = `<header>
+const elementoHeader = `<header>
 <div class="logo1">
 <img src="assets/image.png" alt="dibujo">
 </div>
 <div class="logo2">
 <img src="assets/pngwing.com.png" alt="dibujo">
 </div>
-<div class="titulo">
+<div class="tituloDelNav">
 <h1>Salta, la linda</h1>
 </div>
-<div class="subtitulo1">
+<div class="subtituloDelNav">
 <h4>Tan linda que enamora</h4>
 </div>
 
@@ -36,79 +36,7 @@ const header = `<header>
 </nav>
 </header>`
 
-const styles = `
-header {
-  margin: 5px;
-  padding: 10px;
-  background-color: #EACEB4;
-}
-
-.logo1 img {
-  width: 7em;
-  float: left;
-  margin-bottom: 5px;
-}
-
-.titulo {
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bolder;
-}
-
-.subtitulo1 {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 6px;
-}
-
-.logo2 img {
-  width: 7em;
-  float: right;
-  margin-bottom: 5px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color:#E79E85;
-  overflow: hidden;
-}
-
-.navbar a {
-  color: black;
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.navbar a:hover {
-  background-color: #eb8c6c;
-  color: #7e6858;
-  transform:scale(1.2);
-  cursor: pointer;
-}
-
-.navbar a.active {
-  background-color: #FAD6A5;
-}
-
-.navbar .icon {
-  display: none;
-}
-`;
-
-document.getElementById("header").innerHTML = header;
-let style = document.createElement('style');
-style.innerHTML = styles;
-document.head.appendChild(style);
-
-
-
+document.getElementById("header").innerHTML = elementoHeader;
 
 //footer -
 

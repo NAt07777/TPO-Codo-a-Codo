@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-
 header {
     margin: 5px;
     padding: 10px;
@@ -19,54 +15,44 @@ header {
     width: 7em;
     float: left;
     margin-bottom: 5px;
-    
 }
 
-
-.titulo {
+.tituloDelNav {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
 }
 
-
+.subtituloDelNav {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+}
 
 .logo2 img {
     width: 7em;
     float: right;
     margin-bottom: 5px;
-    
 }
-
-/* Estilos Barra de navegación*/
-
+/*Estilos barra de navegación*/
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color:#E79E85;
-
     overflow: hidden;
-
-
-    border-radius: 15px;
 }
-
-
 
 .navbar a {
     color: black;
-
     float: left;
     display: block;
-
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.2em;
 }
-
 
 .navbar a:hover {
     background-color: #eb8c6c;
@@ -74,34 +60,21 @@ header {
     transform:scale(1.2);
     cursor: pointer;
 }
-
-
-
-.navbar a.active {
-    background-color:  #dd7b7bA5;
-}
-
-.navbar .icon {
-    display: none;
-} 
-
-
-
-
 .navbar a.active {
     background-color: #FAD6A5;
 }
-
+.navbar .icon {
+    display: none;
+}
 
 /* Estilo del Formulario*/
 .container {
     border-radius: 5px;
     background-color: #e48484;
     padding: 20px;
-  }
+}
 
-
-  input[type=text], textarea {
+input[type=text], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -110,24 +83,20 @@ header {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
- 
-  /*Estilo de footer*/
+}
 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 .subtitulo {
     font-family: 'Courgette', cursive;
     text-align: center;
@@ -143,7 +112,6 @@ header {
     text-decoration: none;
     text-align: center;
 }
-
 main {
     margin: 10px;
     padding: 10px;
@@ -169,8 +137,6 @@ p {
     margin: 10px;
 }
 
- 
-
 ol {
     display: flex;
     flex-direction: column;
@@ -178,7 +144,7 @@ ol {
     padding: 10px;
 }
 
-ol li {
+ol li  {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     padding: 1px;
@@ -207,7 +173,7 @@ ol li {
 
 
 
-  .muestrario > div {
+.muestrario > div {
     width: 400 px;
     margin: 20 px;
     text-align: center;
@@ -217,9 +183,9 @@ ol li {
     align-items: center;
     align-content: center; 
     justify-content: center;
-  }
+}
 
- .muestrario {
+.muestrario {
     display: flex;
     height: 400 px;
     width: 500 px;
@@ -242,8 +208,7 @@ ol li {
     align-items: center;
     align-content: center; 
     justify-content: center;
-  }
-
+}
 
 .imagen-galeria {
     max-width: 90%;
@@ -264,12 +229,10 @@ ol li {
     align-self: center;
     size-adjust: center;
     width:fit-content;
-    margin: 25px;
-    
+    margin: 25px;  
 }
- 
 
-  input[type=text], [type=email] ,textarea {
+input[type=text], [type=email] ,textarea {
     width: 100%;
     padding: 12px;
     border: 0;
@@ -278,18 +241,16 @@ ol li {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background-color: #fcebeb ;
-    
-  }
-  input[type=text]:focus, input[type=email]:focus {
+    background-color: #fcebeb ; 
+}
+input[type=text]:focus, input[type=email]:focus {
     background-color:#f8f2f2;
     outline: none;
     border-bottom: solid;
     border-color: red;
-  }
-  
-  
-  button{
+}
+
+button{
     background-color: #ec8481;
     color: white;
     padding: 12px 20px;
@@ -297,10 +258,8 @@ ol li {
     cursor: pointer;
     width: 100%;
     font-size: 1rem;
-    
-
-  }
-  input[type=submit] {
+}
+input[type=submit] {
     background-color: #ec8481;
     color: white;
     padding: 12px 20px;
@@ -308,17 +267,14 @@ ol li {
     cursor: pointer;
     width: 100%;
     font-size: 1rem;
+}
 
-  }
-
-
-  
- input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #f55f5a;
     opacity:1;
-  }
+}
 
-  .alertaexito {
+.alertaexito {
     background-color: #f1d8b6;
     color: rgb(224, 26, 26);
     padding: 12px 20px;
@@ -328,15 +284,13 @@ ol li {
     font-size: 1.5rem;
     font-weight: lighter;
     text-align: center;
+}
 
-
-  }
-   
- .mitextarea{
+.mitextarea{
     resize: none;
-  }
+}
 
-  .micheck {
+.micheck {
     cursor: pointer;
     background-color: #fff;
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
@@ -346,36 +300,11 @@ ol li {
     border: 2px solid #181616;
     transition: all 0.5s ease-in-out;
 }
-  .micheck:checked {
+.micheck:checked {
     background-color: rgb(236 72 153);
-  }
-  
-/*Estilo de footer*/
-
-footer {
-    background-color: #f8f2f2;
-    font-family: 'Courgette', cursive;
-    font-size: .9em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 20px;
 }
-
-.icono {
-    cursor: pointer;
-}
-
-.icono:hover {
-    opacity: .50;
-}
-
-
 
 /*Media queries*/
-
-
 
 @media screen and (max-width: 600px) {
     .navbar {

@@ -3,6 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    margin: 5px;
+    padding: 10px;
+    background-color: #EACEB4;
+}
+
+.logo1 img {
+    width: 7em;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.tituloDelNav {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.subtituloDelNav {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+}
+
+.logo2 img {
+    width: 7em;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#E79E85;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar a:hover {
+    background-color: #eb8c6c;
+    color: #7e6858;
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+.navbar a.active {
+    background-color: #FAD6A5;
+}
+
+.navbar .icon {
+    display: none;
+}
+
 
 main {
     margin: 10px;
@@ -49,7 +113,21 @@ main {
 }
 
 /*Media queries*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar a {
+        padding: 8px;
+        font-size: 1em;
+    }
+    .titulo {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
     .navbar a {
         display: none;
     }
@@ -57,6 +135,9 @@ main {
     float: right;
     display: block;
     }
+}
+
+@media screen and (max-width: 440px) {
     .navbar.responsive {
         position: relative;
     }
@@ -70,15 +151,10 @@ main {
     display: block;
     text-align: left;
     }
-    .titulo {
-        font-size: 1.2rem;
-    }
     .subtitulo1 {
         font-size: 15px;
     }
 }
-
-@media screen and (max-width:425px) {
     .logo1 img {
         width: 3.5em;
         float: left;
@@ -89,4 +165,3 @@ main {
         float: right;
     margin-bottom: 5px;
     }
-}
