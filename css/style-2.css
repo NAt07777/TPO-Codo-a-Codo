@@ -152,18 +152,6 @@ header {
     .navbar {
         flex-direction: column;
     }
-
-    .navbar a {
-        padding: 8px;
-        font-size: 1em;
-    }
-    .tituloDelNav {
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    
     .navbar a {
         display: none;
     }
@@ -173,7 +161,7 @@ header {
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 600px) {
     .navbar.responsive {
         position: relative;
     }
@@ -187,8 +175,21 @@ header {
     display: block;
     text-align: left;
     }
+    .tituloDelNav {
+        font-size: 1rem;
+    }
     .subtituloDelNav {
         font-size: 15px;
+    }
+    .logo1 img {
+        width: 4em;
+        float: left;
+    margin-bottom: 5px;
+    }
+    .logo2 img {
+        width: 4em;
+        float: right;
+    margin-bottom: 5px;
     }
 }
 

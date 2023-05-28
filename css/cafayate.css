@@ -310,19 +310,6 @@ input[type=submit]:hover {
     .navbar {
         flex-direction: column;
     }
-
-    .navbar a {
-        padding: 8px;
-        font-size: 1em;
-    }
-    .titulo {
-        font-size: 1.2rem;
-    }
-}
-
-
-@media screen and (max-width: 440px) {
-    
     .navbar a {
         display: none;
     }
@@ -332,7 +319,7 @@ input[type=submit]:hover {
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 600px) {
     .navbar.responsive {
         position: relative;
     }
@@ -346,8 +333,21 @@ input[type=submit]:hover {
     display: block;
     text-align: left;
     }
-    .subtitulo1 {
+    .tituloDelNav {
+        font-size: 1rem;
+    }
+    .subtituloDelNav {
         font-size: 15px;
+    }
+    .logo1 img {
+        width: 4em;
+        float: left;
+    margin-bottom: 5px;
+    }
+    .logo2 img {
+        width: 4em;
+        float: right;
+    margin-bottom: 5px;
     }
 }
 
