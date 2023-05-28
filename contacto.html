@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Hoja de estilo -->
-    <link rel="stylesheet"href="css/cafayate.css">
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +22,9 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             rel="stylesheet"
         >
+    <!--Hoja de estilo -->
+    <link rel="stylesheet"href="css/cafayate.css">
+
     <title>Conocé Salta|Contacto</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
         <form action="" method="get"  id="formulario" >
             
             <div class="subtitulo1"> Formulario de Contacto</p></div><br>
-            <div class="container" >
+            <div class="mycontainer" >
                 <div
                 class="alert alert-success mt-2 d-none"
                 id="alertaExito"
@@ -61,7 +62,7 @@
                 <label for="mail">Correo de Contacto:</label><input class="form-control mb-2" type="text" name="mail"  value="" id="mail" placeholder=" Ej: aaa@direccion.com" ></input>
                 <h5 class="text-danger mb-2 d-none" id="alertaMail"></h5>
                 <hr><br>
-                <label for="comentario">Deje su comentario o consulta sobre informacion de Salta:</label><textarea class="mitextarea" name="comentario"  values=""  id="comentario" style="height:200px"  placeholder="Deje aqui sus comentarios o consultas...."></textarea>
+                <label for="comentario">Deje su comentario o consulta sobre informacion de Salta:</label><textarea class="mitextarea" name="comentario"  values=""  id="comentario" style="height:200px"  placeholder="Deje aqui sus comentarios o consultas....( Máximo 20 caracteres)"></textarea>
                 <h5 class="text-danger mb-2 d-none" id="alertaComentario"></h5>
                 <hr><br>
                 <label for="suscripcion"></label><input type="checkbox"  class="micheck" name="suscripcion" id="suscripcion" values="yes" name="suscripcion" checked >  Deseo suscribirme al newsletter de la página para recibir información turística de Salta 
